@@ -15,14 +15,14 @@ public int add(int num1, int num2) {
 <head><title>스크립트 요소</title></head>
 <body>
 <!--
-	스크립트렛(Scriptlet) : 주로 JSP코드를 작성하고 실행할 때 사용한다.
-	                        스크립트렛은 body, head 어디서든 사용할 수 있다.
-	                        또한 <script>, <style>태그 내부에서도 사용할 수 있다.
-	                        여기에 기술된 코드는 _jspService()메서드 내에 포함된다. 
-	                        그러므로 해당 영역에서는 메서드를 선언할 수 없다.
-	표헌식(Expression) : 변수를 웹브라우저상에 출력할 때 사용한다. JS의 document.write()와 
-	                     동일한 역할을 한다. 표현식 사용 시 주의할 점은 문장 끝에 
-	                     ;(세미콜론)을 붙이지 않아야 한다.
+스크립트렛(Scriptlet) : 주로 JSP코드를 작성하고 실행할 때 사용한다.
+	                    스크립트렛은 body, head 어디서든 사용할 수 있다.
+	                    또한 <script>, <style>태그 내부에서도 사용할 수 있다.
+	                    여기에 기술된 코드는 _jspService()메서드 내에 포함된다. 
+	                    그러므로 해당 영역에서는 메서드를 선언할 수 없다.
+표현식(Expression) : 변수를 웹브라우저상에 출력할 때 사용한다. JS의 document.write()와 
+	                 동일한 역할을 한다. 표현식 사용 시 주의할 점은 문장 끝에 
+	                 ;(세미콜론)을 붙이지 않아야 한다.
  -->
 <%
 int result = add(10, 20);

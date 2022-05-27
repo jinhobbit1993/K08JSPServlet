@@ -38,7 +38,7 @@ if(cookies != null) {
 <script>
 $(function() {
 	
-	// 팝업창의 닫기 버튼을 클릭했을 때
+	// 팝업창의 닫기 버튼을 클릭했을 때...
 	$('#closeBtn').click(function() {
 		
 		// 레이어 팝업창을 숨김처리한다.
